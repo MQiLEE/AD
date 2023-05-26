@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_WBLModelStoreContainer" CdmEntityContainer="db_WBLEntities">
+    <EntitySetMapping Name="tb_user">
+      <EntityTypeMapping TypeName="db_WBLModel.tb_user">
+        <MappingFragment StoreEntitySet="tb_user">
+          <ScalarProperty Name="u_id" ColumnName="u_id" />
+          <ScalarProperty Name="u_username" ColumnName="u_username" />
+          <ScalarProperty Name="u_pwd" ColumnName="u_pwd" />
+          <ScalarProperty Name="u_name" ColumnName="u_name" />
+          <ScalarProperty Name="u_email" ColumnName="u_email" />
+          <ScalarProperty Name="u_type" ColumnName="u_type" />
+          <ScalarProperty Name="u_resetpwdCode" ColumnName="u_resetpwdCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
