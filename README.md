@@ -12,6 +12,7 @@
 ## How to run
 1. Download project folder + database (by visual studio code or command prompt: git clone https://github.com/peiyu00/AD.git)
 2. Import database
+
 ![image](https://github.com/MQiLEE/AD/assets/95162273/8c6a25f3-b5bc-4b3e-abab-688f65176249)
 
 3. Open web.config file and change the connection string according to your SQL server name. 
